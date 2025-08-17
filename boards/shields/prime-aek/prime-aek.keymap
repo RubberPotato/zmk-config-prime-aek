@@ -69,8 +69,8 @@
 // |  x       |  x       |  x       |  x       |  x       |  x       |          |  x       |  1       |  2       |  3       |  +       |  *       |  x       |
      &trans     &trans     &trans     &trans     &trans     &trans                 &trans     &kp N1     &kp N2     &kp N3     &kp KP_PLUS &kp KP_MULTIPLY  &trans    
 // ├──────────┼──────────┴──────────┼──────────┼──────────┴──────────┤          ├──────────┴──────────┼──────────┼──────────┴──────────┤──────────┤──────────┤
-// |   x      |                     |  x       |  x                  |          |  0                  |  .       |                     |  x       |  x       |
-     &trans                           &trans     &trans                           &kp N0                &kp KP_DOT                       &trans    &trans
+// |   x      |                     |  x       |  x                  |          |  BACKSPACE          |  0       |                     |  .       |  x       |
+     &trans                           &trans     &trans                           &kp BACKSPACE         &kp N0                           &kp KP_DOT  &trans    
 // ╰──────────╯                     ╰──────────┴─────────────────────╯          ╰─────────────────────┴──────────╯                     ╰──────────┴──────────╯
             >;
         };
