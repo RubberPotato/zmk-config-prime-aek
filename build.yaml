@@ -21,4 +21,5 @@
 include:
   - board: nice_nano
     shield: prime-aek
+  - board: nice_nano
     shield: settings-reset
